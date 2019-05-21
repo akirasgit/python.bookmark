@@ -117,3 +117,4 @@ STATICFILES_DIRS = [
                     os.path.join(BASE_DIR, 'common/js'),
                     os.path.join(BASE_DIR, 'common/css'),
                     ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
